@@ -1,0 +1,3093 @@
+fileFormatVersion: 2
+guid: 6265b57ddab156f498bd906effc76590
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d0895436fce7c4f94d4e1a0c2aeacf
+      internalID: -937079464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c6defde03099044a7cd6cc9a2f3515
+      internalID: -260671790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f9e807d9a2efd4db6db57de7deffbb
+      internalID: 1138049491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cadefe554678147af9f92673e459db
+      internalID: -1104751726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120a819ed875b1b49bac560b6610b493
+      internalID: 1540856355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b498b1d791965c41a6061c0910e8111
+      internalID: 1180793405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476ca067e6a3e2048b2020b20883867c
+      internalID: 87553010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a674e3112a9f454882cbbd1523f3937
+      internalID: 854816417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827ef35b1726e2e4a900ae609c75e6b3
+      internalID: -538155910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e54449a9b890df48b61ac9b4b980088
+      internalID: 2058657728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34d3d8c7dc8f8142ba34f2bddaa471b
+      internalID: -233436113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58951762879ba9a409510ff4da4dc184
+      internalID: 583338588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721f7661d8f1d2b4e9c4e0e614074c71
+      internalID: 1576691233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_13
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d361c623463144499411888101590f
+      internalID: -1371573497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 266.66666
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd3453a9a602bf4b982439e60883b12
+      internalID: 657624573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a84cf483cc2804db6b09343ebd7e23
+      internalID: -962056961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e405798954f36b940aa6caba27c2a36c
+      internalID: -1105364167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a328c7519c78a46a5787d80dfb485e
+      internalID: -1983708186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa0f7b9c2b5ffc49b48abfee8075c53
+      internalID: -2108782771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e08546a439f54c46ab9c7023f8a529b
+      internalID: 1993427154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16881ec5df2369a4694c8b9992a83299
+      internalID: 6401063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff1daf7c0a912942956f63c3d8469da
+      internalID: 1927946898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_22
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350098fe9b4790f48820b1f431a4c26b
+      internalID: -2091625163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563eba5463015e04f9a794a84c8482a2
+      internalID: -1716838688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_24
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e013058d8fbade74c90757b9cf008f9d
+      internalID: 1063480734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e521bdbf2b017642b14f03276dd0b09
+      internalID: 1756331790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8959cafae93aafb4d9648d644f7c5bc0
+      internalID: -1580317021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680476d5e2c572a4ab03d312901a4261
+      internalID: -724194021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_28
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ceeabe6b3261f94e95bf7c967c8a597
+      internalID: -1691984944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_29
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 233.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d21ec24d7d7cb4db7a7871c0254c61
+      internalID: 326028149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95554ffd68778f143ad13dab1abe1ad1
+      internalID: 1805055253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f0d7c1576cb3e469f37431d25c182f
+      internalID: -525604291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f35d4b4e577b241bfaf9da4bd38e00
+      internalID: 549281904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc742acef06cfb34ba4370f34317aeae
+      internalID: -589120267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d29e88fb589ef1478a4052315745ad0
+      internalID: 759288720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3839a3f5b3ddd5248b33193ec865891d
+      internalID: 1576216392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5133aacfd40861741b2e00238a2c1083
+      internalID: 916721617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_37
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5706439f24cd9024a94af89fdec01257
+      internalID: 552171076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0034d89fb1221045a505e53799f3711
+      internalID: 611755586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd7acb9b137a234b84837ea11071bce
+      internalID: -1455938749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_40
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2eb16c7575cf645902def5ed8e043a
+      internalID: -41935370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96456a402a06fe34fbe72a776381bd1f
+      internalID: -1701384046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_42
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5486c48327564be48913930f7b187a57
+      internalID: 2037739444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_43
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b7238a794f14a46ae87cd9430f6b40
+      internalID: -906505730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_44
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 200.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5c034515892df4da63a13614ac7af6
+      internalID: -167286384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eab9f05a982aad4790c7683157610e3
+      internalID: -226047581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c6ce74fd6acc84489cb1b18bb4b507
+      internalID: -1318641483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767781900127c254f92a2800c1aa35cf
+      internalID: 933559788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de636dbf549fc9243b96107b3378c429
+      internalID: 1194115216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af2013ca2bf11a4a8aafe749fc0f7d6
+      internalID: -1026373934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_50
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77cb08f5ef57db4894d44d7f50b9b33
+      internalID: 404419720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2141444c8aebb1345b055a8fba87626d
+      internalID: -845012728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_52
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431fffcd0bb1d6e46bc42827904333ea
+      internalID: -188259069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_53
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20021adc4cf4f574b998c4472bdaba70
+      internalID: -1771855349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_54
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ba5558a9b63545a211dd670ccae76
+      internalID: 301737558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_55
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27d27d97347fe246931ef2a13d5c4c6
+      internalID: -373102220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_56
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168f69167985dc46a828cc0a7842e62
+      internalID: 1267833426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa694bea41d1904fbf72630790231d1
+      internalID: -1484109039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_58
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9706e3628be7d4bb4775d25186c291
+      internalID: -2065710801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 167.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddf9d757bdb1274188c4d76ff048bea
+      internalID: 838550044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0c43a54ab2cf84e8e8eb00535dad4b
+      internalID: 716589339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d709372d1f040d4fbb8d2faecb60a74
+      internalID: -1122013623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_62
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248973eaea35c1f438a10d68d03b71a6
+      internalID: 916011062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8efa870624a0e4792a2b054bc5c3b0
+      internalID: -181568020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_64
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0e5324917596846aa6b3d8639885be
+      internalID: -798853472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_65
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f936483d387ae40872cbf324f49a08
+      internalID: -365429149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_66
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1806bec005f7a4eb7c03b03276b2b6
+      internalID: -1203249175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_67
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc818c9c9ac8e34da7eb14c466e8b09
+      internalID: -40424319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_68
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7119b5dbc0c8ed74fa6891cbfd72d131
+      internalID: 155983259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_69
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e689cbc13a2263f428ae10f69f9334ab
+      internalID: 1785730158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5281a39dcb70f4aabee667c2c425ea
+      internalID: 1253992978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_71
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffebb693ee6de7e4e9af748919c2ef55
+      internalID: -1141438806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_72
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad0942906ea0b42bd9e97db7b00c9d
+      internalID: 1084673438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_73
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe762aeb1564a614ba3a54abcb647779
+      internalID: -605512879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_74
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 134.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6b672eb8c836546b79d4254b4ec06e
+      internalID: -818926867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18147067ca92229449455b287cf55e91
+      internalID: 815147682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_76
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756eec01002878f46b91e3c655fd94de
+      internalID: 1416771792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_77
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57714ad39ddba384586cc74f5ed07b8f
+      internalID: 1276174028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_78
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ef50ce6ee4afd418843c55c5fd5086
+      internalID: 6284971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_79
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3900e7fbeb41f04eaec68b53d2dbad6
+      internalID: -11085118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_80
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc3ee6f243528d4498dcb0d952ecb35
+      internalID: -1366452198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_81
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b472ce1a0ca2a49a84fb6bd6bdc177
+      internalID: -722090069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_82
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffa88667fd931c4db5919532a418796
+      internalID: 1959354199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_83
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fba38839d6a5824fb67a701949e27be
+      internalID: 1274487838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_84
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0b5aea2452aa54989ba7c783fe7277
+      internalID: -1537269221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_85
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9174965799076f24f9f7b244e8f59c9b
+      internalID: 1855057049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_86
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600cf6899265d4d40b46e70640951e4a
+      internalID: 1121334795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_87
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcc5fe3b269f12468b707a7fb0eb538
+      internalID: -1106260135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_88
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c2e330ab34b98458be1e47c47cc8f3
+      internalID: -259964879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_89
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 101.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa53666835f4b14f95ccca3690dbb92
+      internalID: -245328932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555497f21e8579043971bf602ac76b8e
+      internalID: -749686363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_91
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e3e6965e7248b4391efeed31b5791e
+      internalID: -314467340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_92
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44f0ad90b5651143a6debf7d3876aac
+      internalID: 1322492627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e3be8ef7036e64eb580242f0e4f045
+      internalID: 1689391071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_94
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34c29145310cf3438de40e980fed954
+      internalID: -861490591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_95
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2dda57c00463948b9adfabdba8f58e
+      internalID: 1282424057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_96
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4d1da193ef1f04aa22fcdffcccd48b
+      internalID: 1669088903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_97
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defc1e86e22a71a48bd15df5e21c4f3f
+      internalID: -1130304567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b860d7c7ba74fbc4bbd95356b354b3db
+      internalID: -1468846824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_99
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6250e26e5aec0dd4bb02444c62678228
+      internalID: 623562050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_100
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258c5335a30794b429a4583c354c161c
+      internalID: -616046839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_101
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf2270078b02af438f61a04e13d3852
+      internalID: 1503381077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_102
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931304aa09cdeb54eaa907693eaf321f
+      internalID: 1889800112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_103
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442036b31c210f74d814db1039ca621a
+      internalID: 2144021919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_104
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 68.66667
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae85434f5de89a4dbb581aef1862aa5
+      internalID: 1400982131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207f7c82105a1dc4ea531ac373e6fd0c
+      internalID: -510536182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_106
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d547711b32f3a54c97fcf1fa96d4f15
+      internalID: -1214348902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_107
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69264143bdf4ec24bb6c64a26d374ceb
+      internalID: 396728740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_108
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca14ceff7088c1f43b2cd74378cd0eef
+      internalID: 722104155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_109
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61644559c11ca2b49912f8395a6dba2f
+      internalID: 149352066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_110
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbaa5806f5caed4daffceb8d1688da1
+      internalID: 942236956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_111
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c570d0df4ea4e2f4dbcc7dd76b477746
+      internalID: 1130833447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_112
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8101077f244589b46883b5901f4a548d
+      internalID: 1868096981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_113
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47f4b10abaa44d499544c1d466eeff4
+      internalID: 47312940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_114
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43daacce8424e4844ab17ad2eee012e1
+      internalID: 659504534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_115
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b474b475e41c645898ad9c61b9aea1
+      internalID: -1560790278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_116
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350884d1015fdcf49ab33a6f739ebd5c
+      internalID: 1209814557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_117
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322f5f8aa4e50944596bd7f264b5c810
+      internalID: 1217676490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_118
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020725de5b966c8428913db788c7dff5
+      internalID: 1608255231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_119
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 35.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664b9c640fc47f040996debf88cf4419
+      internalID: -1583318442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ebf84df6f1bcb438a5feecd06f0bbf
+      internalID: 9609827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_121
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52d33bc86a5a074b9d04ca45b05468c
+      internalID: -433576859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_122
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece75dc994764d146a04f7026c9b239c
+      internalID: 1129145943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_123
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64af9050880820f4a9e218f29802fc21
+      internalID: 967464269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_124
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d68b677768cdf419bfc21da9ace60f
+      internalID: 1600810835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_125
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d6a2a68f1addb4c872592ddcd5437b
+      internalID: -1828877031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_126
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04622b0b95e80674e84847a9737c18ea
+      internalID: -1850111368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_127
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62819f631f44d94299f35fb3faa264a
+      internalID: 198881732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_128
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d7a712de39d6742a679ad9fc3cc7ed
+      internalID: 715038364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_129
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cad0a8d637f3604a9bb5d8cf9767f6c
+      internalID: -651524540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_130
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fe4b055b4bf0d4a92de97e881e6aca
+      internalID: 1950029462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_131
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028e320a2c23f5d4bb4ff9be9436e268
+      internalID: 1639165316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_132
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708affa14655407479999b2687807e4a
+      internalID: -2141546452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_133
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea29d806becf14c4f8c7f1900130b3c8
+      internalID: 378076174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndustrialTileSetWithBackground_134
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2.666668
+        width: 33.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d04d28d1eb18948bc79bb6e6560a9c
+      internalID: 1643816104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IndustrialTileSetWithBackground_30: 1805055253
+      IndustrialTileSetWithBackground_102: 1889800112
+      IndustrialTileSetWithBackground_3: -1104751726
+      IndustrialTileSetWithBackground_72: 1084673438
+      IndustrialTileSetWithBackground_69: 1785730158
+      IndustrialTileSetWithBackground_17: -1983708186
+      IndustrialTileSetWithBackground_27: -724194021
+      IndustrialTileSetWithBackground_24: 1063480734
+      IndustrialTileSetWithBackground_37: 552171076
+      IndustrialTileSetWithBackground_41: -1701384046
+      IndustrialTileSetWithBackground_64: -798853472
+      IndustrialTileSetWithBackground_53: -1771855349
+      IndustrialTileSetWithBackground_58: -2065710801
+      IndustrialTileSetWithBackground_86: 1121334795
+      IndustrialTileSetWithBackground_70: 1253992978
+      IndustrialTileSetWithBackground_59: 838550044
+      IndustrialTileSetWithBackground_10: -233436113
+      IndustrialTileSetWithBackground_98: -1468846824
+      IndustrialTileSetWithBackground_118: 1608255231
+      IndustrialTileSetWithBackground_76: 1416771792
+      IndustrialTileSetWithBackground_50: 404419720
+      IndustrialTileSetWithBackground_38: 611755586
+      IndustrialTileSetWithBackground_23: -1716838688
+      IndustrialTileSetWithBackground_127: 198881732
+      IndustrialTileSetWithBackground_57: -1484109039
+      IndustrialTileSetWithBackground_34: 759288720
+      IndustrialTileSetWithBackground_35: 1576216392
+      IndustrialTileSetWithBackground_99: 623562050
+      IndustrialTileSetWithBackground_81: -722090069
+      IndustrialTileSetWithBackground_112: 1868096981
+      IndustrialTileSetWithBackground_96: 1669088903
+      IndustrialTileSetWithBackground_13: -1371573497
+      IndustrialTileSetWithBackground_91: -314467340
+      IndustrialTileSetWithBackground_7: 854816417
+      IndustrialTileSetWithBackground_33: -589120267
+      IndustrialTileSetWithBackground_9: 2058657728
+      IndustrialTileSetWithBackground_116: 1209814557
+      IndustrialTileSetWithBackground_19: 1993427154
+      IndustrialTileSetWithBackground_82: 1959354199
+      IndustrialTileSetWithBackground_18: -2108782771
+      IndustrialTileSetWithBackground_71: -1141438806
+      IndustrialTileSetWithBackground_39: -1455938749
+      IndustrialTileSetWithBackground_65: -365429149
+      IndustrialTileSetWithBackground_101: 1503381077
+      IndustrialTileSetWithBackground_26: -1580317021
+      IndustrialTileSetWithBackground_92: 1322492627
+      IndustrialTileSetWithBackground_8: -538155910
+      IndustrialTileSetWithBackground_67: -40424319
+      IndustrialTileSetWithBackground_44: -167286384
+      IndustrialTileSetWithBackground_124: 1600810835
+      IndustrialTileSetWithBackground_25: 1756331790
+      IndustrialTileSetWithBackground_106: -1214348902
+      IndustrialTileSetWithBackground_80: -1366452198
+      IndustrialTileSetWithBackground_0: -937079464
+      IndustrialTileSetWithBackground_60: 716589339
+      IndustrialTileSetWithBackground_132: -2141546452
+      IndustrialTileSetWithBackground_74: -818926867
+      IndustrialTileSetWithBackground_22: -2091625163
+      IndustrialTileSetWithBackground_134: 1643816104
+      IndustrialTileSetWithBackground_5: 1180793405
+      IndustrialTileSetWithBackground_93: 1689391071
+      IndustrialTileSetWithBackground_20: 6401063
+      IndustrialTileSetWithBackground_16: -1105364167
+      IndustrialTileSetWithBackground_84: -1537269221
+      IndustrialTileSetWithBackground_128: 715038364
+      IndustrialTileSetWithBackground_6: 87553010
+      IndustrialTileSetWithBackground_47: 933559788
+      IndustrialTileSetWithBackground_73: -605512879
+      IndustrialTileSetWithBackground_107: 396728740
+      IndustrialTileSetWithBackground_131: 1639165316
+      IndustrialTileSetWithBackground_130: 1950029462
+      IndustrialTileSetWithBackground_32: 549281904
+      IndustrialTileSetWithBackground_126: -1850111368
+      IndustrialTileSetWithBackground_40: -41935370
+      IndustrialTileSetWithBackground_95: 1282424057
+      IndustrialTileSetWithBackground_89: -245328932
+      IndustrialTileSetWithBackground_28: -1691984944
+      IndustrialTileSetWithBackground_122: 1129145943
+      IndustrialTileSetWithBackground_63: -181568020
+      IndustrialTileSetWithBackground_115: -1560790278
+      IndustrialTileSetWithBackground_110: 942236956
+      IndustrialTileSetWithBackground_103: 2144021919
+      IndustrialTileSetWithBackground_43: -906505730
+      IndustrialTileSetWithBackground_133: 378076174
+      IndustrialTileSetWithBackground_123: 967464269
+      IndustrialTileSetWithBackground_78: 6284971
+      IndustrialTileSetWithBackground_48: 1194115216
+      IndustrialTileSetWithBackground_11: 583338588
+      IndustrialTileSetWithBackground_68: 155983259
+      IndustrialTileSetWithBackground_119: -1583318442
+      IndustrialTileSetWithBackground_55: -373102220
+      IndustrialTileSetWithBackground_77: 1276174028
+      IndustrialTileSetWithBackground_83: 1274487838
+      IndustrialTileSetWithBackground_121: -433576859
+      IndustrialTileSetWithBackground_88: -259964879
+      IndustrialTileSetWithBackground_42: 2037739444
+      IndustrialTileSetWithBackground_111: 1130833447
+      IndustrialTileSetWithBackground_45: -226047581
+      IndustrialTileSetWithBackground_125: -1828877031
+      IndustrialTileSetWithBackground_85: 1855057049
+      IndustrialTileSetWithBackground_2: 1138049491
+      IndustrialTileSetWithBackground_4: 1540856355
+      IndustrialTileSetWithBackground_46: -1318641483
+      IndustrialTileSetWithBackground_52: -188259069
+      IndustrialTileSetWithBackground_87: -1106260135
+      IndustrialTileSetWithBackground_51: -845012728
+      IndustrialTileSetWithBackground_105: -510536182
+      IndustrialTileSetWithBackground_129: -651524540
+      IndustrialTileSetWithBackground_15: -962056961
+      IndustrialTileSetWithBackground_56: 1267833426
+      IndustrialTileSetWithBackground_21: 1927946898
+      IndustrialTileSetWithBackground_117: 1217676490
+      IndustrialTileSetWithBackground_36: 916721617
+      IndustrialTileSetWithBackground_75: 815147682
+      IndustrialTileSetWithBackground_31: -525604291
+      IndustrialTileSetWithBackground_49: -1026373934
+      IndustrialTileSetWithBackground_66: -1203249175
+      IndustrialTileSetWithBackground_62: 916011062
+      IndustrialTileSetWithBackground_97: -1130304567
+      IndustrialTileSetWithBackground_108: 722104155
+      IndustrialTileSetWithBackground_100: -616046839
+      IndustrialTileSetWithBackground_54: 301737558
+      IndustrialTileSetWithBackground_104: 1400982131
+      IndustrialTileSetWithBackground_12: 1576691233
+      IndustrialTileSetWithBackground_109: 149352066
+      IndustrialTileSetWithBackground_61: -1122013623
+      IndustrialTileSetWithBackground_120: 9609827
+      IndustrialTileSetWithBackground_14: 657624573
+      IndustrialTileSetWithBackground_113: 47312940
+      IndustrialTileSetWithBackground_79: -11085118
+      IndustrialTileSetWithBackground_1: -260671790
+      IndustrialTileSetWithBackground_94: -861490591
+      IndustrialTileSetWithBackground_90: -749686363
+      IndustrialTileSetWithBackground_29: 326028149
+      IndustrialTileSetWithBackground_114: 659504534
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
