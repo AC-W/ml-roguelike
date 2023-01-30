@@ -1,13 +1,12 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player_shoot : MonoBehaviour
+public class BowWeapon : Weapon
 {
-    public PlayerAgent player;
-    public Animator m_Animator;
-    public Transform BowEndPointTransform;
+    //public PlayerAgent player;
+    private Animator m_Animator;
+    private Transform bowEndPointTransform;
 
     // public event EventHandler<OnBowShootEventArgs> OnShoot;
     // public class OnBowShootEventArgs : EventArgs 
@@ -20,16 +19,16 @@ public class player_shoot : MonoBehaviour
 
     private Vector3 mousePosition;
 
-    [SerializeField] private Transform pfArrow;
+    [SerializeField] private Transform arrowPrefab;
 
-    void start()
+    void Awake()
     {
+        bowEndPointTransform = transform.Find("BowEndPoint");
         m_Animator = gameObject.GetComponent<Animator>();
         fired = false;
-        
     }
 
-    void Step(bool fireDown)
+    public override void Step(bool fireDown)
     {
         if (fireDown)
         {
@@ -43,13 +42,15 @@ public class player_shoot : MonoBehaviour
             //     shootPosition = mousePosition,
             // });
         }
-        if (m_Animator.GetCurrentAnimatorStateInfo(0).IsName("shoot"))
+
+        firing = m_Animator.GetCurrentAnimatorStateInfo(0).IsName("shoot");
+        if (firing)
         {
             if (fired)
             {
 
-                Transform arrow = Instantiate(pfArrow, BowEndPointTransform.position, Quaternion.identity);
-                Vector3 shootDir = (mousePosition - BowEndPointTransform.position).normalized;
+                Transform arrow = Instantiate(arrowPrefab, bowEndPointTransform.position, Quaternion.identity);
+                Vector3 shootDir = (mousePosition - bowEndPointTransform.position).normalized;
                 arrow.GetComponent<ProjectileArrow>().SetUp(shootDir);
                 fired = false;
             }

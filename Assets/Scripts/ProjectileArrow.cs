@@ -31,6 +31,13 @@ public class ProjectileArrow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+        IDamageable damageableObject = col.GetComponent<IDamageable>();
+        if (damageableObject != null)
+        {
+            if (col.gameObject.name != "Player"){
+                damageableObject.TakeHit(damage);
+            }
+        }
         if (col.gameObject.name != "Player" && col.gameObject.name != "arrow(Clone)")
         {
             Debug.Log(col.gameObject.name);
