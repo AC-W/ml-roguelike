@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firing: 0
+  cooldown: 0.5
   arrowPrefab: {fileID: 2531318848476338827, guid: 7ea4e324333a162488a7e1d07df2b475, type: 3}
 --- !u!1 &2362901483257569430
 GameObject:

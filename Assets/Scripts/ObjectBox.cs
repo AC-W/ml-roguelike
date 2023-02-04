@@ -17,6 +17,11 @@ public class ObjectBox : MonoBehaviour, IDamageable
         
     }
 
+    public void SetHealth(float hp)
+    {
+        health = hp;
+    }
+
     public void TakeHit(float damage){
         health -= damage;
 
@@ -30,9 +35,9 @@ public class ObjectBox : MonoBehaviour, IDamageable
     {
         if (col.gameObject.name == "arrow(Clone)")
         {
-            Debug.Log("arrow hit damagable object");
+            // Debug.Log("arrow hit damagable object");
             //this.health -= col.gameObject.GetComponent<ProjectileArrow>().damage;
-            Debug.Log(health);
+            // Debug.Log(health);
         }
         
     }

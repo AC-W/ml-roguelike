@@ -156,25 +156,25 @@ public class PlayerAgent : Agent, IDamageable
         ResetAgent();
     }
 
-    public override void CollectObservations(VectorSensor sensor)
-    {
-        // My state
-        PlayerState myState = GetPlayerState();
-        foreach (PlayerState state in myStates)
-        {
-            state.AddObservations(sensor);
-        }
+    // public override void CollectObservations(VectorSensor sensor)
+    // {
+    //     // My state
+    //     PlayerState myState = GetPlayerState();
+    //     foreach (PlayerState state in myStates)
+    //     {
+    //         state.AddObservations(sensor);
+    //     }
 
-        // Opponent state
-        PlayerState opponentState = opponent.GetPlayerState();
-        foreach (PlayerState state in opponentStates)
-        {
-            state.AddObservations(sensor);
-        }
+    //     // Opponent state
+    //     PlayerState opponentState = opponent.GetPlayerState();
+    //     foreach (PlayerState state in opponentStates)
+    //     {
+    //         state.AddObservations(sensor);
+    //     }
 
-        // Global state
-        sensor.AddObservation(envController.totalSteps / envController.maxSteps);
-    }
+    //     // Global state
+    //     sensor.AddObservation(envController.totalSteps / envController.maxSteps);
+    // }
 
     public PlayerState GetPlayerState()
     {

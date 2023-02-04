@@ -33,10 +33,10 @@ public class player_shoot : MonoBehaviour
     {
         if (fireDown)
         {
+            fired = true;
             m_Animator.SetBool("shoot", true);
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = 0f;
-            fired = true;
             // OnShoot?.Invoke(this,new OnBowShootEventArgs
             // {
             //     BowEndPointPosition = BowEndPointTransform.position,

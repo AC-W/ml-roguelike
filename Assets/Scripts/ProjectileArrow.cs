@@ -14,7 +14,6 @@ public class ProjectileArrow : MonoBehaviour
         Rigidbody2D rigidbody2D = GetComponent<Rigidbody2D>();
         rigidbody2D.AddForce(shootDirection * moveSpeed, ForceMode2D.Impulse);
         
-
         Vector3 dir = shootDirection.normalized;
         float n = Mathf.Atan2(dir.y,dir.x) * Mathf.Rad2Deg;
         if (n < 0) n += 360;
@@ -32,23 +31,25 @@ public class ProjectileArrow : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         IDamageable damageableObject = col.GetComponent<IDamageable>();
-        if (damageableObject != null)
+        if (damageableObject != null & col.gameObject.name != "arrow(Clone)")
         {
-            if (col.gameObject.name != "Player"){
-                damageableObject.TakeHit(damage);
-            }
-        }
-        if (col.gameObject.name != "Player" && col.gameObject.name != "arrow(Clone)")
-        {
-            Debug.Log(col.gameObject.name);
+            // Debug.Log(col.gameObject.name);
+            Sentry agent = transform.parent.GetComponent<Sentry>();
+            if (agent) agent.GetResult(col);
             transform.parent = col.transform;
             col.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity,ForceMode2D.Impulse);
-            //Destroy the arrow's rigidbody2D and collider2D
+            damageableObject.TakeHit(damage);
             Destroy (gameObject.GetComponent<Rigidbody2D>(),0.03f);
-
+            Destroy (gameObject.GetComponent<Collider2D>());
+            
+        }
+        else if (col.gameObject.name != "arrow(Clone)")
+        {
+            Sentry agent = transform.parent.GetComponent<Sentry>();
+            if (agent) agent.GetResult(col);
+            Destroy (gameObject.GetComponent<Rigidbody2D>(),0.03f);
             Destroy (gameObject.GetComponent<Collider2D>());
         }
-        
     }
     
     private void OnTriggerExit2D(Collider2D col)
