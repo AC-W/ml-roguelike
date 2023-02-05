@@ -31,11 +31,15 @@ public class ProjectileArrow : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         IDamageable damageableObject = col.GetComponent<IDamageable>();
-        if (damageableObject != null & col.gameObject.name != "arrow(Clone)")
+        if (damageableObject != null & col.gameObject.name != "arrow(Clone)" & col.gameObject.name != "Player")
         {
             // Debug.Log(col.gameObject.name);
-            Sentry agent = transform.parent.GetComponent<Sentry>();
-            if (agent) agent.GetResult(col);
+            try 
+            {
+                Sentry agent = transform.parent.GetComponent<Sentry>();
+                if (agent) agent.GetResult(col);
+            }
+            catch {}
             transform.parent = col.transform;
             col.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity,ForceMode2D.Impulse);
             damageableObject.TakeHit(damage);
@@ -43,10 +47,15 @@ public class ProjectileArrow : MonoBehaviour
             Destroy (gameObject.GetComponent<Collider2D>());
             
         }
-        else if (col.gameObject.name != "arrow(Clone)")
+        else if (col.gameObject.name != "arrow(Clone)" & col.gameObject.name != "Player")
         {
-            Sentry agent = transform.parent.GetComponent<Sentry>();
-            if (agent) agent.GetResult(col);
+            try 
+            {
+                Sentry agent = transform.parent.GetComponent<Sentry>();
+                if (agent) agent.GetResult(col);
+            }
+            catch
+            {}
             Destroy (gameObject.GetComponent<Rigidbody2D>(),0.03f);
             Destroy (gameObject.GetComponent<Collider2D>());
         }

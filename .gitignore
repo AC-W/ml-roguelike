@@ -3,6 +3,7 @@
 .AppleDouble
 .LSOverride
 /venv
+/Packages
 
 # Icon must end with two \r
 Icon
