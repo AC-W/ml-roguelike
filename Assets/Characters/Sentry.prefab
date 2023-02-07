@@ -43,12 +43,12 @@ GameObject:
   - component: {fileID: -4171853960827191792}
   - component: {fileID: 3965778581201698060}
   - component: {fileID: 2774143476609666634}
-  - component: {fileID: 8874925466819983832}
-  - component: {fileID: 5342497482797015874}
   - component: {fileID: 24456882}
-  - component: {fileID: 24456889}
+  - component: {fileID: -8064937494234760388}
+  - component: {fileID: -6386990578022459872}
+  - component: {fileID: 185364882614679970}
   m_Layer: 0
-  m_Name: Static_Bowmen
+  m_Name: Sentry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,7 +169,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3125, y: 0.40625}
   m_EdgeRadius: 0
---- !u!114 &8874925466819983832
+--- !u!65 &24456882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3383564453227190782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3125, y: 0.40625, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-8064937494234760388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,21 +198,21 @@ MonoBehaviour:
     VectorObservationSize: 6
     NumStackedVectorObservations: 1
     m_ActionSpec:
-      m_NumContinuousActions: 4
-      BranchSizes: 02000000
-    VectorActionSize: 
+      m_NumContinuousActions: 1
+      BranchSizes: 
+    VectorActionSize: 01000000
     VectorActionDescriptions: []
-    VectorActionSpaceType: 0
+    VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: ShootTarget
+  m_BehaviorName: ShootOnce
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
   m_ObservableAttributeHandling: 0
---- !u!114 &5342497482797015874
+--- !u!114 &-6386990578022459872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,7 +221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3383564453227190782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a0a76fde2dd4649a441ca14bf7ef81, type: 3}
+  m_Script: {fileID: 11500000, guid: 380e9c5e5f066ce40b553acd36f43e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -218,22 +231,9 @@ MonoBehaviour:
   targetTransform: {fileID: 0}
   projectile_launcher: {fileID: 57696623201588352, guid: cf7a996e81e8b3d41ac53a04466df53a, type: 3}
   projectile: {fileID: 2531318848476338827, guid: 7ea4e324333a162488a7e1d07df2b475, type: 3}
-  health: 100
-  cooldown: 0.5
---- !u!65 &24456882
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3383564453227190782}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3125, y: 0.40625, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &24456889
+  health: 0
+  cooldown: 0
+--- !u!114 &185364882614679970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,4 +246,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
-  TakeActionsBetweenDecisions: 1
+  TakeActionsBetweenDecisions: 0

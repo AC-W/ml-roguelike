@@ -23,12 +23,15 @@ public class BowWeapon : Weapon
 
     [SerializeField] private Transform arrowPrefab;
 
+    public string Type;
+
     void Awake()
     {
         bowEndPointTransform = transform.Find("BowEndPoint");
         m_Animator = gameObject.GetComponent<Animator>();
         fired = false;
         can_fire = true;
+        Type = "weapons";
     }
 
     public override void Step(bool fireDown)

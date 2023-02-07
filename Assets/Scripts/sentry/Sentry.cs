@@ -5,7 +5,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 
-public class Sentry : Agent, IDamageable
+public class Sentry : Agent, IDamageable, MyAgents
 {
 
     [SerializeField] private Transform targetTransform;
@@ -39,8 +39,8 @@ public class Sentry : Agent, IDamageable
         transform.localPosition = new Vector3(Random.Range(3f,7f),Random.Range(-4f,4f),0);
         targetTransform.position = new Vector3(-4f,0,0);
         targetTransform.localPosition = new Vector3(Random.Range(-7f,-3f),Random.Range(-4f,4f),0);
-        targetTransform.GetComponent<ObjectBox>().SetHealth(100f);
-        health = 100;
+        targetTransform.GetComponent<ObjectBox>().SetHealth(100000f);
+        health = 100f;
         weaponParentTransform = transform.Find("Weapon Parent");
         can_fire = true;
     }
@@ -55,11 +55,12 @@ public class Sentry : Agent, IDamageable
 
     public void TakeHit(float damage)
     {
-        // health -= damage;
+        health -= damage;
 
         if (this.health <= 0)
         {
-            // EndEpisode();
+            EndEpisode();
+            health = 100f;
             // Destroy(gameObject);
         }
     }
@@ -101,7 +102,6 @@ public class Sentry : Agent, IDamageable
                 Transform arrow = Instantiate(projectile, projectile_endpoint.position, Quaternion.identity);
                 Vector3 shootDir = (projectile_endpoint.position - weaponParentTransform.position).normalized;
                 num_shots += 1;
-                // Debug.Log(shootDir);
                 arrow.GetComponent<ProjectileArrow>().SetUp(shootDir);
                 arrow.parent = transform;
                 can_fire = false;
@@ -109,10 +109,6 @@ public class Sentry : Agent, IDamageable
                 // AddReward(1f);
                 Invoke("Reset_shot",cooldown);
             }
-            // if (num_shots > 10)
-            // {
-            //     EndEpisode();
-            // }
         }
     }
 
@@ -132,7 +128,7 @@ public class Sentry : Agent, IDamageable
         else                                discreteActions[0] = 0;
     }
 
-    public void GetResult(Collider2D col)
+    public void GetResult(Collider2D col,Transform projectile)
     {
         if (col != null & col.gameObject.name == targetTransform.gameObject.name)
         {
@@ -150,5 +146,6 @@ public class Sentry : Agent, IDamageable
     public void Reset_shot()
     {
         can_fire = true;
+        if (num_shots >= 1) EndEpisode();
     }
 }

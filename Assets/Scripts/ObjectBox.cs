@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class ObjectBox : MonoBehaviour, IDamageable
 {
-    private float health;
+    public string type;
+    [SerializeField] private float health;
     // Start is called before the first frame update
     void Start()
     {
-        this.health = 100f;
+        type = "Iteractables";
     }
 
     // Update is called once per frame

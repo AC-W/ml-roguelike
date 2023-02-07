@@ -9,6 +9,8 @@ public class player_shoot : MonoBehaviour
     public Animator m_Animator;
     public Transform BowEndPointTransform;
 
+    
+
     // public event EventHandler<OnBowShootEventArgs> OnShoot;
     // public class OnBowShootEventArgs : EventArgs 
     // {
@@ -26,6 +28,7 @@ public class player_shoot : MonoBehaviour
     {
         m_Animator = gameObject.GetComponent<Animator>();
         fired = false;
+        
         
     }
 

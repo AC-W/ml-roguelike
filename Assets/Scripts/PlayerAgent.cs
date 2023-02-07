@@ -76,6 +76,8 @@ public class PlayerAgent : Agent, IDamageable
     Vector2 inputAxes;
     bool facingLeft;
 
+    public string Type;
+
     EnvironmentParameters m_ResetParams;
 
     void Start()
@@ -85,6 +87,8 @@ public class PlayerAgent : Agent, IDamageable
         animator = GetComponent<Animator>();
         m_SpriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         weaponParentTransform = transform.Find("Weapon Parent");
+
+        Type = "Player";
     }
 
     // Update is called once per frame
